@@ -2,6 +2,6 @@
 
 ## Extensions
 
-### YAOS
+### YAOS - Yet Another Obsidian Synchronizer
 
 Sync vault to GitHub.
