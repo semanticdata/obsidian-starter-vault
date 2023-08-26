@@ -4,31 +4,18 @@
     "type": "split",
     "children": [
       {
-        "id": "49670a3ec201d8a4",
+        "id": "585e6f4e77f11908",
         "type": "tabs",
         "children": [
           {
-            "id": "fe0c10901784f8a3",
+            "id": "cb8137a32668b5cd",
             "type": "leaf",
             "state": {
               "type": "empty",
               "state": {}
             }
-          },
-          {
-            "id": "7590b49d2a6e65b9",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "README.md",
-                "mode": "source",
-                "source": false
-              }
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -94,7 +81,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +97,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "README.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,9 +118,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "README.md"
-              }
+              "state": {}
             }
           }
         ]
@@ -156,11 +139,11 @@
       "yet-another-obsidian-synchronizer:YAOS": false
     }
   },
-  "active": "c1dd1b18020c805f",
+  "active": "cb8137a32668b5cd",
   "lastOpenFiles": [
+    "README.md",
     "z.txt",
     "New Text Document.txt",
-    "LICENSE",
-    "README.md"
+    "LICENSE"
   ]
 }

@@ -15,7 +15,7 @@ Sync vault to GitHub.
 
 ### Linter
 
-Format ans style notes. Akin to something like Prettier for example.
+Format and style notes. Akin to something like Prettier.
 
 ## License
 
