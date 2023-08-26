@@ -4,6 +4,7 @@
   <img src="https://img.shields.io/github/commit-activity/t/semanticdata/forgetful-dev" />
   <img src="https://img.shields.io/github/last-commit/semanticdata/forgetful-dev" />
 </p>
+
 # Obsidian Test Vault
 
 ## Extensions
