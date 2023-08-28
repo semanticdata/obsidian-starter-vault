@@ -1,3 +1,8 @@
 {
-  "trashOption": "local"
+  "trashOption": "local",
+  "foldIndent": false,
+  "autoPairMarkdown": false,
+  "tabSize": 2,
+  "alwaysUpdateLinks": true,
+  "showInlineTitle": false
 }

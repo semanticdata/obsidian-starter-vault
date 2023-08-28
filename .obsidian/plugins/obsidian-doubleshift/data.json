@@ -1,0 +1,16 @@
+{
+  "delay": 500,
+  "key": "Shift",
+  "shortcuts": [
+    {
+      "command": "switcher:open",
+      "key": "Shift",
+      "lastKeyUpTime": 0
+    },
+    {
+      "command": "command-palette:open",
+      "key": "Control",
+      "lastKeyUpTime": 0
+    }
+  ]
+}

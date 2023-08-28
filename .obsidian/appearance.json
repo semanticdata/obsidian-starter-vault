@@ -1,3 +1,9 @@
 {
-  "accentColor": ""
+  "accentColor": "#546973",
+  "cssTheme": "Minimal",
+  "theme": "system",
+  "enabledCssSnippets": [
+    "frontmatter-tweaks",
+    "typography-fixes"
+  ]
 }

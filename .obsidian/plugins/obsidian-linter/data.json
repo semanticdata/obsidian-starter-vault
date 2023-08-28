@@ -153,8 +153,8 @@
       "enabled": true
     },
     "convert-spaces-to-tabs": {
-      "enabled": false,
-      "tabsize": 4
+      "enabled": true,
+      "tabsize": "2"
     },
     "empty-line-around-blockquotes": {
       "enabled": true
@@ -169,8 +169,8 @@
       "enabled": true
     },
     "heading-blank-lines": {
-      "enabled": false,
-      "bottom": true,
+      "enabled": true,
+      "bottom": false,
       "empty-line-after-yaml": true
     },
     "line-break-at-document-end": {
