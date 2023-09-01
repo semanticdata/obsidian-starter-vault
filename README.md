@@ -7,6 +7,8 @@
 
 # Obsidian Test Vault
 
+Opinionated Obsidian Starter
+
 ## Appearance
 
 * [Obsidian Minimal](https://github.com/kepano/obsidian-minimal) Theme
