@@ -13,7 +13,6 @@
 
 ### Snippets
 
-* Frontmatter Tweaks - [Internal Link](.obsidian/snippets/frontmatter-tweaks.css)
 * Typography Fixes - [Internal Link](.obsidian/snippets/typography-fixes.css)
 
 ## Extensions
