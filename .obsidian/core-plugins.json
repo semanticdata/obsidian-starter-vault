@@ -3,8 +3,11 @@
   "global-search",
   "switcher",
   "backlink",
+  "page-preview",
+  "templates",
   "command-palette",
   "editor-status",
+  "outline",
   "word-count",
   "file-recovery"
 ]

@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "585e6f4e77f11908",
+        "id": "70d7363eadc84a5a",
         "type": "tabs",
         "children": [
           {
-            "id": "cb8137a32668b5cd",
+            "id": "050d0520e9ead675",
             "type": "leaf",
             "pinned": true,
             "state": {
@@ -89,6 +89,24 @@
                 "unlinkedCollapsed": true
               }
             }
+          },
+          {
+            "id": "45103701841e1a00",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {}
+            }
+          },
+          {
+            "id": "2b6ea5868734a3c5",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "README.md"
+              }
+            }
           }
         ]
       }
@@ -99,15 +117,23 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "command-palette:Open command palette": false,
+      "omnisearch:Omnisearch": false,
       "yet-another-obsidian-synchronizer:YAOS": false,
       "switcher:Open quick switcher": false,
-      "templates:Insert template": false,
-      "command-palette:Open command palette": false
+      "table-editor-obsidian:Advanced Tables Toolbar": false,
+      "templates:Insert template": false
     }
   },
-  "active": "cb8137a32668b5cd",
+  "active": "050d0520e9ead675",
   "lastOpenFiles": [
+    "assets/cookie-enjoyer.png",
+    "journals/first-journal.md",
+    "templates/daily-journal.md",
     "README.md",
+    "journals",
+    "templates",
+    "assets",
     "z.txt",
     "New Text Document.txt",
     "LICENSE"

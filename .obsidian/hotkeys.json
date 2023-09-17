@@ -14,5 +14,30 @@
       ],
       "key": "ArrowUp"
     }
-  ]
+  ],
+  "global-search:open": [],
+  "omnisearch:show-modal": [
+    {
+      "modifiers": [
+        "Mod",
+        "Shift"
+      ],
+      "key": "F"
+    }
+  ],
+  "editor:open-search": [],
+  "omnisearch:show-modal-infile": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "F"
+    }
+  ],
+  "table-editor-obsidian:table-control-bar": [],
+  "editor:delete-paragraph": [],
+  "editor:follow-link": [],
+  "workspace:goto-last-tab": [],
+  "editor:open-link-in-new-leaf": [],
+  "editor:toggle-checklist-status": []
 }

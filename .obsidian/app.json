@@ -4,5 +4,8 @@
   "autoPairMarkdown": false,
   "tabSize": 2,
   "alwaysUpdateLinks": true,
-  "showInlineTitle": false
+  "showInlineTitle": false,
+  "showLineNumber": false,
+  "showIndentGuide": true,
+  "attachmentFolderPath": "assets"
 }

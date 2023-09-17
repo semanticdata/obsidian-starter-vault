@@ -7,9 +7,9 @@
   "canvas": false,
   "outgoing-link": false,
   "tag-pane": false,
-  "page-preview": false,
+  "page-preview": true,
   "daily-notes": false,
-  "templates": false,
+  "templates": true,
   "note-composer": false,
   "command-palette": true,
   "slash-command": false,
@@ -18,12 +18,13 @@
   "markdown-importer": false,
   "zk-prefixer": false,
   "random-note": false,
-  "outline": false,
+  "outline": true,
   "word-count": true,
   "slides": false,
   "audio-recorder": false,
   "workspaces": false,
   "file-recovery": true,
   "publish": false,
-  "sync": false
+  "sync": false,
+  "properties": false
 }

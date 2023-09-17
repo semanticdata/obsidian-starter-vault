@@ -4,6 +4,9 @@
   "theme": "system",
   "enabledCssSnippets": [
     "frontmatter-tweaks",
-    "typography-fixes"
+    "typography-fixes",
+    "[editor] Normalize Links",
+    "[editor] Typography fixes",
+    "[plugin] MySnippets tweaks"
   ]
 }
