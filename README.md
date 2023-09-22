@@ -1,4 +1,3 @@
-
 <p align="right">
 	<img src="https://img.shields.io/github/languages/code-size/semanticdata/obsidian-test-vault" />
 	<img src="https://img.shields.io/github/repo-size/semanticdata/obsidian-test-vault" />
@@ -21,13 +20,13 @@ An opinionated Obsidian starter.
 
 * [Obsidian Minimal](https://github.com/kepano/obsidian-minimal) Theme
 
-### Snippets
+### CSS Snippets
 
 * Typography Fixes - Normalizes styling and typography.
 * Normalize Links - Removes decoration from external links.
 * MySnippets Tweaks - Essential UI adjustment while using [MySnippets](https://github.com/chetachiezikeuzor/MySnippets-Plugin) Plugin.
 
-## Extensions
+## Community Plugins
 
 * [Advance Tables](https://github.com/tgrosinger/advanced-tables-obsidian) - Improved navigation, formatting, and manipulation to markdown tables.
 * [Calendar](https://github.com/liamcain/obsidian-calendar-plugin) - Integrates Daily Notes. Let's you visit any Daily Notes with ease.
