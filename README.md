@@ -7,7 +7,7 @@
 
 # Obsidian Starter Vault
 
-An opinionated Obsidian starter.
+An opinionated [Obsidian](https://obsidian.md/) starter.
 
 ## Getting Started
 
