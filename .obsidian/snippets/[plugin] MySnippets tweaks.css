@@ -5,8 +5,8 @@
 
 /* Embiggen menu width for longer filenames */
 .MySnippets-statusbar-menu {
-    width:420px;
-    height:420px;
+    width:auto;
+    height:auto;
 }
 
 /* Re-order menu item */

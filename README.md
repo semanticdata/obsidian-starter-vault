@@ -6,9 +6,9 @@
 	<img src="https://img.shields.io/github/last-commit/semanticdata/obsidian-test-vault" />
 </p>
 
-# Obsidian Test Vault
+# Obsidian Starter Vault
 
-Opinionated Obsidian Starter.
+An opinionated Obsidian starter.
 
 ## Getting Started
 
@@ -16,18 +16,6 @@ Opinionated Obsidian Starter.
 2. Open the repo in Obsidian.
 3. Use it and customize it.
 4. Have fun!
-
-## File Structure
-
-```
-root
-├── assets/
-├── journals/
-│   └── first-journal.md
-├── templates
-│   └── daily-journal.md
-└── README.md
-```
 
 ## Appearance
 
@@ -48,11 +36,25 @@ root
 * [Home Tab](https://github.com/olrenso/obsidian-home-tab) - Integrates recent notes and Omnisearch.
 * [Linter](https://github.com/platers/obsidian-linter) - Format and style notes. Akin to something like Prettier.
 * [Minimal Settings](https://github.com/kepano/obsidian-minimal-settings) - Allows you to customize the minimal theme settings panel.
+* [Mononote](https://github.com/czottmann/obsidian-mononote) - Ensures each note occupies only one tab.
 * [MySnippets](https://github.com/chetachiezikeuzor/MySnippets-Plugin) - Adds a status bar menu allowing the user to quickly manage their snippets.
 * [Natural Language Dates](https://github.com/argenos/nldates-obsidian) - Allows `@today` style shortcuts.
 * [Omnisearch](https://github.com/scambier/obsidian-omnisearch) - Better search. Period.
+* [Settings Search](https://github.com/javalent/settings-search) - Adds a search bar to Obsidian settings.
 * [Style Settings](https://github.com/mgmeyers/obsidian-style-settings) - Allows snippet, theme, and plugin CSS files define as a set of config options.
 * [YAOS - Yet Another Obsidian Synchronizer](https://github.com/mahyarmirrashed/yaos) - Sync your vault to GitHub.
+
+## File Structure
+
+```
+root
+├── assets/
+├── journals/
+│   └── first-journal.md
+├── templates
+│   └── daily-journal.md
+└── README.md
+```
 
 ## Workflows
 

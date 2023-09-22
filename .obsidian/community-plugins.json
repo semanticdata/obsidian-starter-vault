@@ -1,5 +1,4 @@
 [
-  "yet-another-obsidian-synchronizer",
   "obsidian-linter",
   "obsidian-minimal-settings",
   "obsidian-doubleshift",
@@ -10,5 +9,8 @@
   "omnisearch",
   "obsidian-style-settings",
   "mysnippets-plugin",
-  "obsidian-editor-shortcuts"
+  "obsidian-editor-shortcuts",
+  "mononote",
+  "obsidian-plugin-update-tracker",
+  "settings-search"
 ]
