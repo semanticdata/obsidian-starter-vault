@@ -24,8 +24,12 @@
   "unresolvedLinks": false,
   "recentFilesStore": [
     {
+      "filepath": "markdown-demo.md",
+      "timestamp": 1695747111237
+    },
+    {
       "filepath": "README.md",
-      "timestamp": 1695354360789
+      "timestamp": 1695746956264
     },
     {
       "filepath": "assets/cookie-enjoyer.png",

@@ -4,21 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "70d7363eadc84a5a",
+        "id": "8afe82f3275d94fa",
         "type": "tabs",
         "children": [
           {
-            "id": "050d0520e9ead675",
+            "id": "6092e4b3e59dc8df",
             "type": "leaf",
-            "pinned": true,
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "README.md",
-                "mode": "source",
-                "source": false
-              },
-              "pinned": true
+              "type": "home-tab-view",
+              "state": {}
             }
           }
         ]
@@ -79,7 +73,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,9 +96,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "README.md"
-              }
+              "state": {}
             }
           }
         ]
@@ -118,19 +109,19 @@
   "left-ribbon": {
     "hiddenItems": {
       "command-palette:Open command palette": false,
-      "omnisearch:Omnisearch": false,
-      "yet-another-obsidian-synchronizer:YAOS": false,
       "switcher:Open quick switcher": false,
+      "templates:Insert template": false,
       "table-editor-obsidian:Advanced Tables Toolbar": false,
-      "templates:Insert template": false
+      "omnisearch:Omnisearch": false
     }
   },
-  "active": "050d0520e9ead675",
+  "active": "6092e4b3e59dc8df",
   "lastOpenFiles": [
+    "markdown-demo.md",
+    "README.md",
     "assets/cookie-enjoyer.png",
     "journals/first-journal.md",
     "templates/daily-journal.md",
-    "README.md",
     "journals",
     "templates",
     "assets",
