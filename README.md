@@ -59,7 +59,7 @@ root
 
 ### Formatting Text
 
-The _Markdown Linter_ plugin is configured to `lint on save` for a smoother typing experience.
+The _Markdown Linter_ plugin is configured to <ins>lint on save</ins> for a smoother typing experience. This means everytime you press `Ctrl + S`, it will **format the note** as well as save it.
 
 ### Hotkeys
 
