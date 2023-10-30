@@ -5375,7 +5375,7 @@ var SimpleGitService = class {
     await Promise.all(files.map((file) => this.gitProvider.add(file)));
   }
   async gitStageAll() {
-    this.gitProvider.add("./*");
+    await this.gitProvider.add("./*");
   }
   async isLocalAhead() {
     return this.gitProvider.status().then((status) => status.ahead > 0);

@@ -1,0 +1,25 @@
+:root {
+    --table-border-color: var(--text-faint);
+}
+
+/* Border color */
+.cm-s-obsidian .cm-table-widget th,
+.cm-s-obsidian .cm-table-widget td {
+    border-color: var(--table-border-color);
+}
+
+/* Bold header row */
+.cm-s-obsidian .cm-table-widget th {
+    font-weight: bold;
+}
+
+/* use sans font */
+.markdown-rendered tbody td {
+    /* color: cyan; */
+    /* font-family: monospace; */
+}
+
+/* lighten alternate row background */
+.markdown-rendered tbody tr:nth-child(odd) {
+    background-color: #2a3a3a80
+}

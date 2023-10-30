@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "8afe82f3275d94fa",
+        "id": "7ca79dd758698f0e",
         "type": "tabs",
         "children": [
           {
-            "id": "6092e4b3e59dc8df",
+            "id": "d96192e792d5057d",
             "type": "leaf",
             "state": {
               "type": "home-tab-view",
@@ -57,7 +57,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 221.5
   },
   "right": {
     "id": "492089c40b718c71",
@@ -98,8 +98,28 @@
               "type": "outline",
               "state": {}
             }
+          },
+          {
+            "id": "8ad59ec08cb07eb1",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "9f3ad6a0a9b03a31",
+            "type": "leaf",
+            "state": {
+              "type": "advanced-tables-toolbar",
+              "state": {}
+            }
           }
-        ]
+        ],
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
@@ -108,20 +128,21 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "daily-notes:Open today's daily note": false,
       "command-palette:Open command palette": false,
-      "switcher:Open quick switcher": false,
+      "omnisearch:Omnisearch": false,
+      "switcher:Open quick switcher": true,
       "templates:Insert template": false,
-      "table-editor-obsidian:Advanced Tables Toolbar": false,
-      "omnisearch:Omnisearch": false
+      "table-editor-obsidian:Advanced Tables Toolbar": true
     }
   },
-  "active": "6092e4b3e59dc8df",
+  "active": "d96192e792d5057d",
   "lastOpenFiles": [
-    "markdown-demo.md",
     "README.md",
-    "assets/cookie-enjoyer.png",
-    "journals/first-journal.md",
+    "markdown-demo.md",
     "templates/daily-journal.md",
+    "journals/first-journal.md",
+    "assets/cookie-enjoyer.png",
     "journals",
     "templates",
     "assets",

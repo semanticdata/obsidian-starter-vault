@@ -1,3 +1,4 @@
+
 <p align="right">
 	<img src="https://img.shields.io/github/languages/code-size/semanticdata/obsidian-test-vault" />
 	<img src="https://img.shields.io/github/repo-size/semanticdata/obsidian-test-vault" />
@@ -7,7 +8,7 @@
 
 # Obsidian Starter Vault
 
-An opinionated [Obsidian](https://obsidian.md/) starter.
+An opinionated [Obsidian](https://obsidian.md/) starter. It holds a compilation of extensions and settings to help you learn and start exploring Obsidian.
 
 ## Getting Started
 
@@ -18,13 +19,18 @@ An opinionated [Obsidian](https://obsidian.md/) starter.
 
 ## Appearance
 
-* [Obsidian Minimal](https://github.com/kepano/obsidian-minimal) Theme
+* Obsidian [Minimal Theme](https://github.com/kepano/obsidian-minimal)
 
 ### CSS Snippets
 
-* Typography Fixes - Normalizes styling and typography.
+* Compact Tab Header - Arranges items in Tab header into groups.
+* Default Style Settings - Adds the option to customize Obsidian further.
+* Frontmatter Tweaks - Improves the legibility of Frontmatter elements.
+* MySnippets Tweaks - Essential UI setting while using [MySnippets](https://github.com/chetachiezikeuzor/MySnippets-Plugin) Plugin.
 * Normalize Links - Removes decoration from external links.
-* MySnippets Tweaks - Essential UI adjustment while using [MySnippets](https://github.com/chetachiezikeuzor/MySnippets-Plugin) Plugin.
+* Status bar Tweaks - Improves legibility of the Status bar.
+* Table Tweaks - Improves legibility of Tables.
+* Typography Fixes - Normalizes styling and typography.
 
 ## Community Plugins
 
@@ -96,4 +102,4 @@ Start a Markdown table by typing `|` followed by a `<space>` and `Tab`.
 
 ## License
 
-Source code is available under [MIT](LICENSE).
+Source code in this repository is available under the [MIT](LICENSE) license. You are free to use this code however you see fit. That said, some acknowledgement would be well received.

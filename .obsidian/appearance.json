@@ -1,12 +1,17 @@
 {
-  "accentColor": "#92611c",
+  "accentColor": "#8ab702",
   "cssTheme": "Minimal",
-  "theme": "system",
+  "theme": "obsidian",
   "enabledCssSnippets": [
     "frontmatter-tweaks",
     "typography-fixes",
     "[editor] Normalize Links",
-    "[editor] Typography fixes",
-    "[plugin] MySnippets tweaks"
+    "[plugin] MySnippets tweaks",
+    "[editor] Table tweaks",
+    "[ui] Compact Tab Header",
+    "[ui] Default Style Settings",
+    "[ui] Statusbar tweaks",
+    "[editor] Frontmatter tweaks",
+    "[editor] Typography fixes"
   ]
 }

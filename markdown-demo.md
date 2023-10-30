@@ -1,13 +1,10 @@
 ---
 title: Markdown Demo
-tags: [markdown, reference]
-compartir: true
-lastmod: 2023-09-26
+tags:
+  - markdown
+  - reference
 ---
-
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc eu feugiat sapien. Aenean ligula nunc, laoreet id sem in, interdum bibendum felis.
-
-<!-- more -->
 
 # H1 Heading 1
 

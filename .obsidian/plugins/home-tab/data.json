@@ -24,24 +24,24 @@
   "unresolvedLinks": false,
   "recentFilesStore": [
     {
-      "filepath": "markdown-demo.md",
-      "timestamp": 1695747111237
+      "filepath": "README.md",
+      "timestamp": 1698675305251
     },
     {
-      "filepath": "README.md",
-      "timestamp": 1695746956264
+      "filepath": "markdown-demo.md",
+      "timestamp": 1698675303655
+    },
+    {
+      "filepath": "templates/daily-journal.md",
+      "timestamp": 1698674900629
+    },
+    {
+      "filepath": "journals/first-journal.md",
+      "timestamp": 1698674679557
     },
     {
       "filepath": "assets/cookie-enjoyer.png",
       "timestamp": 1694936322649
-    },
-    {
-      "filepath": "journals/first-journal.md",
-      "timestamp": 1694936312990
-    },
-    {
-      "filepath": "templates/daily-journal.md",
-      "timestamp": 1694936311951
     }
   ],
   "starredFileStore": [],
