@@ -1,5 +1,5 @@
 {
-  "accentColor": "#8ab702",
+  "accentColor": "#872ac6",
   "cssTheme": "Minimal",
   "theme": "obsidian",
   "enabledCssSnippets": [
@@ -13,5 +13,6 @@
     "[ui] Statusbar tweaks",
     "[editor] Frontmatter tweaks",
     "[editor] Typography fixes"
-  ]
+  ],
+  "baseFontSize": 16
 }

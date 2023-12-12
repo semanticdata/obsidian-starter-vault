@@ -9,7 +9,7 @@
   "iconColorType": "default",
   "wordmark": "Obsidian Starter",
   "customFont": "interfaceFont",
-  "fontSize": "4em",
+  "fontSize": "2em",
   "fontColorType": "default",
   "fontWeight": 600,
   "maxResults": 8,
@@ -25,7 +25,7 @@
   "recentFilesStore": [
     {
       "filepath": "README.md",
-      "timestamp": 1698675305251
+      "timestamp": 1701708197569
     },
     {
       "filepath": "markdown-demo.md",

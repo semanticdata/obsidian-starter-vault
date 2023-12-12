@@ -5626,11 +5626,14 @@ var YaosPlugin = class extends import_obsidian5.Plugin {
         name: "Show unmerged/conflicting files",
         callback: () => new UnmergedFilesView(this.app, this.gitService).open()
       });
-      this.addRibbonIcon(
-        PLUGIN_ICON,
-        PLUGIN_NAME,
-        this.handleRibbonIconClick.bind(this)
-      );
+      this.addCommand({
+        id: "sync",
+        name: "Sync your vault",
+        callback: async () => {
+          await this.syncVault();
+        }
+      });
+      this.addRibbonIcon(PLUGIN_ICON, PLUGIN_NAME, this.syncVault.bind(this));
       this.addSettingTab(new YaosSettingTab(this.app, this));
       logger_default.debug("Plugin initialized.");
     } else {
@@ -5650,7 +5653,7 @@ var YaosPlugin = class extends import_obsidian5.Plugin {
   async saveSettings(settings = this.settings) {
     await this.saveData(settings);
   }
-  async handleRibbonIconClick(_evt) {
+  async syncVault(_evt) {
     if (!this.gitService || !this.gitignoreService) {
       logger_default.fatal("Services were not initialized.");
     } else if (!this.syncController) {

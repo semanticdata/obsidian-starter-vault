@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "7ca79dd758698f0e",
+        "id": "fd56a7d734c9d257",
         "type": "tabs",
         "children": [
           {
-            "id": "d96192e792d5057d",
+            "id": "2c3a4f67f413b3f0",
             "type": "leaf",
             "state": {
               "type": "home-tab-view",
@@ -130,14 +130,14 @@
     "hiddenItems": {
       "daily-notes:Open today's daily note": false,
       "command-palette:Open command palette": false,
-      "omnisearch:Omnisearch": false,
       "switcher:Open quick switcher": true,
       "templates:Insert template": false,
-      "table-editor-obsidian:Advanced Tables Toolbar": true
+      "omnisearch:Omnisearch": false
     }
   },
-  "active": "d96192e792d5057d",
+  "active": "c1dd1b18020c805f",
   "lastOpenFiles": [
+    "new-note.md",
     "README.md",
     "markdown-demo.md",
     "templates/daily-journal.md",
