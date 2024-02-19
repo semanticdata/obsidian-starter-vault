@@ -21,7 +21,7 @@ The starter uses the [Minimal Theme](https://github.com/kepano/obsidian-minimal)
 
 ### CSS Snippets
 
-You will find a small subset of useful CSS snippets. here's a quick breakdown of what each one does:
+You will find a small subset of useful CSS snippets included with the starter. Here's a quick breakdown of what each one does:
 
 * Compact Tab Header - Arranges items in Tab header into groups.
 * Default Style Settings - Adds the option to customize Obsidian further.
