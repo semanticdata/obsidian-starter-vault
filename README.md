@@ -1,27 +1,27 @@
+# Obsidian Starter Vault
 
-<p align="right">
+<p align="center">
 	<img src="https://img.shields.io/github/languages/code-size/semanticdata/obsidian-test-vault" />
 	<img src="https://img.shields.io/github/repo-size/semanticdata/obsidian-test-vault" />
 	<img src="https://img.shields.io/github/commit-activity/t/semanticdata/obsidian-test-vault" />
 	<img src="https://img.shields.io/github/last-commit/semanticdata/obsidian-test-vault" />
 </p>
 
-# Obsidian Starter Vault
-
-An opinionated [Obsidian](https://obsidian.md/) starter. It holds a compilation of extensions and settings to help you learn and start exploring Obsidian.
+An opinionated [Obsidian](https://obsidian.md/) starter vault. It holds a compilation of extensions and settings to help you learn and start exploring Obsidian.
 
 ## Getting Started
 
 1. Clone or download this repo.
-2. Open the repo in Obsidian.
-3. Use it and customize it.
-4. Have fun!
+2. Open the repo/folder in Obsidian.
+3. Use it, customize it, and have fun!
 
 ## Appearance
 
-* Obsidian [Minimal Theme](https://github.com/kepano/obsidian-minimal)
+The starter uses the [Minimal Theme](https://github.com/kepano/obsidian-minimal) including extra configurations and settings via the [Minimal Theme Settings](https://github.com/kepano/obsidian-minimal) plugin.
 
 ### CSS Snippets
+
+You will find a small subset of useful CSS snippets. here's a quick breakdown of what each one does:
 
 * Compact Tab Header - Arranges items in Tab header into groups.
 * Default Style Settings - Adds the option to customize Obsidian further.
@@ -33,6 +33,8 @@ An opinionated [Obsidian](https://obsidian.md/) starter. It holds a compilation 
 * Typography Fixes - Normalizes styling and typography.
 
 ## Community Plugins
+
+This starter vault uses the following [community plugins](https://obsidian.md/plugins):
 
 * [Advance Tables](https://github.com/tgrosinger/advanced-tables-obsidian) - Improved navigation, formatting, and manipulation to markdown tables.
 * [Calendar](https://github.com/liamcain/obsidian-calendar-plugin) - Integrates Daily Notes. Let's you visit any Daily Notes with ease.

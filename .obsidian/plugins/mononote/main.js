@@ -31,42 +31,62 @@ var import_obsidian = require("obsidian");
 
 // src/plugin-info.ts
 var PLUGIN_INFO = {
-  "pluginVersion": "1.0.0",
-  "pluginReleasedAt": "2023-08-22T12:06:35+0200"
+  "pluginVersion": "1.1.1",
+  "pluginReleasedAt": "2024-01-09T15:32:07+0100"
 };
 
 // src/main.ts
 var Mononote = class extends import_obsidian.Plugin {
   constructor() {
     super(...arguments);
-    this.onFileOpen = async (file) => {
-      var _a;
+    this.onActiveLeafChange = (activeLeaf) => {
+      setTimeout(() => this.handleActiveLeafChange(activeLeaf), 100);
+    };
+    this.handleActiveLeafChange = async (activeLeaf) => {
       const { workspace } = this.app;
-      if (!file) {
+      const filePath = activeLeaf == null ? void 0 : activeLeaf.view.getState().file;
+      if (!filePath)
+        return;
+      const viewType = activeLeaf == null ? void 0 : activeLeaf.view.getViewType();
+      const isActiveLeafPinned = activeLeaf.pinned;
+      const duplicateLeaves = workspace.getLeavesOfType(viewType).filter(
+        (l) => {
+          var _a;
+          return l.parent.id === activeLeaf.parent.id && ((_a = l.view) == null ? void 0 : _a.getState().file) === filePath;
+        }
+      ).sort((l1, l2) => {
+        if (l1.activeTime === 0)
+          return 1;
+        if (l2.activeTime === 0)
+          return -1;
+        return l1.activeTime - l2.activeTime;
+      });
+      let unpinnedDupes = duplicateLeaves.filter((l) => !l.pinned);
+      let pinnedDupes = duplicateLeaves.filter((l) => l.pinned);
+      const ephemeralState = activeLeaf.getEphemeralState();
+      const hasEphemeralState = Object.keys(ephemeralState).length > 0;
+      if (pinnedDupes.length) {
+        if (isActiveLeafPinned) {
+          unpinnedDupes.forEach((l) => l.detach());
+          return;
+        }
+        const newActiveLeaf2 = pinnedDupes[0];
+        if (hasEphemeralState)
+          newActiveLeaf2.setEphemeralState(ephemeralState);
+        workspace.setActiveLeaf(newActiveLeaf2, { focus: true });
         return;
       }
-      let dupeLeaves = workspace.getLeavesOfType("markdown").filter((leaf) => leaf.view.getState().file === file.path);
-      if (dupeLeaves.length < 2) {
-        return;
-      }
-      const activeLeaf = (_a = workspace.getActiveViewOfType(import_obsidian.MarkdownView)) == null ? void 0 : _a.leaf;
-      if (!activeLeaf) {
-        return;
-      }
-      const leafWithHistory = activeLeaf;
-      if (leafWithHistory.history.backHistory.length) {
-        await leafWithHistory.history.back();
-      } else {
-        activeLeaf.detach();
-      }
-      const firstDuplicateLeaf = dupeLeaves.find((leaf) => leaf != activeLeaf);
-      workspace.setActiveLeaf(firstDuplicateLeaf, { focus: true });
+      const newActiveLeaf = unpinnedDupes.shift();
+      unpinnedDupes.forEach((l) => l.detach());
+      if (hasEphemeralState)
+        newActiveLeaf.setEphemeralState(ephemeralState);
+      workspace.setActiveLeaf(newActiveLeaf, { focus: true });
     };
   }
   async onload() {
     this.app.workspace.onLayoutReady(() => {
       this.registerEvent(
-        this.app.workspace.on("file-open", this.onFileOpen)
+        this.app.workspace.on("active-leaf-change", this.onActiveLeafChange)
       );
       console.log(`Plugin Mononote v${PLUGIN_INFO.pluginVersion} initialized`);
     });

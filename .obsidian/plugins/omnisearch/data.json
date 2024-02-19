@@ -4,6 +4,7 @@
   "ignoreDiacritics": true,
   "indexedFileTypes": [],
   "PDFIndexing": false,
+  "officeIndexing": false,
   "imagesIndexing": false,
   "unsupportedFilesIndexing": "no",
   "splitCamelCase": false,
@@ -26,6 +27,6 @@
   "httpApiEnabled": false,
   "httpApiPort": "51361",
   "httpApiNotice": true,
-  "welcomeMessage": "1.10.1",
+  "welcomeMessage": "1.21.0",
   "verboseLogging": false
 }

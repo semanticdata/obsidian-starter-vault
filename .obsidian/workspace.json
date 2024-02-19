@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "fd56a7d734c9d257",
+        "id": "0d2a6ac7065ebaf8",
         "type": "tabs",
         "children": [
           {
-            "id": "2c3a4f67f413b3f0",
+            "id": "9198673f88102461",
             "type": "leaf",
             "state": {
               "type": "home-tab-view",
@@ -51,6 +51,14 @@
                 "extraContext": false,
                 "sortOrder": "alphabetical"
               }
+            }
+          },
+          {
+            "id": "383bb073b2720fd8",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
             }
           }
         ]
@@ -135,10 +143,10 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "c1dd1b18020c805f",
+  "active": "9198673f88102461",
   "lastOpenFiles": [
-    "new-note.md",
     "README.md",
+    "new-note.md",
     "markdown-demo.md",
     "templates/daily-journal.md",
     "journals/first-journal.md",
