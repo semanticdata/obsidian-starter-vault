@@ -1,25 +1,25 @@
-# Obsidian Starter Vault
+# 🔮 Obsidian Starter Vault
 
 <p align="center">
-	<img src="https://img.shields.io/github/languages/code-size/semanticdata/obsidian-test-vault" />
-	<img src="https://img.shields.io/github/repo-size/semanticdata/obsidian-test-vault" />
-	<img src="https://img.shields.io/github/commit-activity/t/semanticdata/obsidian-test-vault" />
-	<img src="https://img.shields.io/github/last-commit/semanticdata/obsidian-test-vault" />
+ <img src="https://img.shields.io/github/languages/code-size/semanticdata/obsidian-test-vault" />
+ <img src="https://img.shields.io/github/repo-size/semanticdata/obsidian-test-vault" />
+ <img src="https://img.shields.io/github/commit-activity/t/semanticdata/obsidian-test-vault" />
+ <img src="https://img.shields.io/github/last-commit/semanticdata/obsidian-test-vault" />
 </p>
 
 An opinionated [Obsidian](https://obsidian.md/) starter vault. It holds a compilation of extensions and settings to help you learn and start exploring Obsidian.
 
-## Getting Started
+## 🌟 Getting Started
 
 1. Clone or download this repo.
 2. Open the repo/folder in Obsidian.
 3. Use it, customize it, and have fun!
 
-## Appearance
+## 🦋 Appearance
 
 The starter uses the [Minimal Theme](https://github.com/kepano/obsidian-minimal) including extra configurations and settings via the [Minimal Theme Settings](https://github.com/kepano/obsidian-minimal) plugin.
 
-### CSS Snippets
+### 👨🏼‍💻 CSS Snippets
 
 You will find a small subset of useful CSS snippets included with the starter. Here's a quick breakdown of what each one does:
 
@@ -32,7 +32,7 @@ You will find a small subset of useful CSS snippets included with the starter. H
 * Table Tweaks - Improves legibility of Tables.
 * Typography Fixes - Normalizes styling and typography.
 
-## Community Plugins
+## 🤝🏼 Community Plugins
 
 This starter vault uses the following [community plugins](https://obsidian.md/plugins):
 
@@ -51,7 +51,7 @@ This starter vault uses the following [community plugins](https://obsidian.md/pl
 * [Style Settings](https://github.com/mgmeyers/obsidian-style-settings) - Allows snippet, theme, and plugin CSS files define as a set of config options.
 * [YAOS - Yet Another Obsidian Synchronizer](https://github.com/mahyarmirrashed/yaos) - Sync your vault to GitHub.
 
-## File Structure
+## 📂 File Structure
 
 ```
 root
@@ -63,22 +63,20 @@ root
 └── README.md
 ```
 
-## Workflows
+## 🔁 Workflows
 
 ### Formatting Text
 
 The _Markdown Linter_ plugin is configured to <ins>lint on save</ins> for a smoother typing experience. This means everytime you press `Ctrl + S`, it will **format the note** as well as save it.
 
-### Hotkeys
+### Search
 
-#### Search
+* You may open the _Command Palette_ by pressing `Ctrl` `Ctrl` in rapid succession.
+* You may start _Omnisearch: Search Vault_ by pressing `Shift` `Shift` in rapid succession.
+* Reassigned `Ctrl + F` to _Omnisearch: In File Search_.
+* Reassigned `Ctrl + Shift + F` to _Omnisearch: Search Vault_.
 
-- You may open the _Command Palette_ by pressing `Ctrl` `Ctrl` in rapid succession.
-- You may start _Omnisearch: Search Vault_ by pressing `Shift` `Shift` in rapid succession.
-- Reassigned `Ctrl + F` to _Omnisearch: In File Search_.
-- Reassigned `Ctrl + Shift + F` to _Omnisearch: Search Vault_.
-
-#### Editor Shortcuts
+### Editor Shortcuts
 
 | Action                   | Keybinding           |
 | ------------------------ | -------------------- |
@@ -87,21 +85,21 @@ The _Markdown Linter_ plugin is configured to <ins>lint on save</ins> for a smoo
 | Copy line above          | `Alt + Shift + Up`   |
 | Copy line below          | `Alt + shift + Down` |
 | Select word / selection  | `Ctrl + D`           |
-| Select line (repeatable) | `Ctrl + L`           | 
+| Select line (repeatable) | `Ctrl + L`           |
 
-### Natural Language Dates
+### 🌄 Natural Language Dates
 
 Autocomplete and link natural language expressions to daily notes.
 
 Examples:
-- `@today`
-- `@tomorrow`
-- `@next week`
+* `@today`
+* `@tomorrow`
+* `@next week`
 
 ### Tables
 
 Start a Markdown table by typing `|` followed by a `<space>` and `Tab`.
 
-## License
+## © License
 
 Source code in this repository is available under the [MIT](LICENSE) license. You are free to use this code however you see fit. That said, some acknowledgement would be well received.
