@@ -1,6 +1,6 @@
 # 🔮 Obsidian Starter Vault
 
-<p align="center">
+<p align="left">
  <img src="https://img.shields.io/github/languages/code-size/semanticdata/obsidian-test-vault" />
  <img src="https://img.shields.io/github/repo-size/semanticdata/obsidian-test-vault" />
  <img src="https://img.shields.io/github/commit-activity/t/semanticdata/obsidian-test-vault" />
