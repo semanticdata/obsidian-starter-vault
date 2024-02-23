@@ -1,0 +1,32 @@
+/*
+MySnippets plugin tweaks.
+*/
+
+/* Embiggen menu width for longer filenames */
+.MySnippets-statusbar-menu {
+  width: auto;
+  height: auto;
+}
+
+.MySnippets-statusbar-menu .menu-item {
+  padding: 0;
+}
+
+/* Re-order menu item */
+.MySnippets-statusbar-menu .menu-item .checkbox-container {
+  order: 1;
+}
+
+/* Make code button less prominent */
+.MySnippets-statusbar-menu .MS-OpenSnippet {
+  box-shadow: none;
+  background: transparent;
+}
+.MySnippets-statusbar-menu .MS-OpenSnippet:hover svg path {
+  fill: var(--interactive-accent) !important;
+}
+
+/* Fix open snippet button on light themes */
+.theme-light .MS-OpenSnippet svg path {
+  fill: var(--tx3) !important;
+}

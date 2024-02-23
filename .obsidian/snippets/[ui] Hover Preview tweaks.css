@@ -1,0 +1,18 @@
+/* get more snippets at https://github.com/kmaasrud/awesome-obsidian */
+/* author: https://github.com/cannibalox & https://github.com/konhi */
+/* source: https://forum.obsidian.md/t/meta-post-common-css-hacks/1978/82 */
+
+.popover.hover-popover {
+  transform: scale(0.85);
+}
+
+.popover.hover-popover .markdown-embed {
+  min-height: 40em;
+}
+
+.popover.hover-popover .markdown-embed h1 {
+  margin-top: 0;
+}
+.popover.hover-popover .markdown-embed h2 {
+  margin-top: 0.5em;
+}

@@ -1,0 +1,40 @@
+/* Unexpected selector */
+/* div.taskido .task {
+  display: inline-block !important;
+} */
+
+/* "Focus On Today" */
+div.taskido .todayHeader {
+  font-size: 16px;
+  margin: 0;
+}
+/* Task content */
+div.content a,
+div.taskido .label,
+div.taskido .count,
+div.taskido .quickEntryPanel input {
+  font-size: 13px;
+}
+
+/* Note icon */
+div.taskido .info svg {
+  display: none;
+}
+
+/* Line width */
+div.taskido .timeline {
+  width: 1.5em;
+}
+/* Taskido leaf content */
+div.workspace-leaf-content div.view-content {
+  padding: 0.75em;
+}
+
+div.taskido .counters,
+div.taskido .quickEntryPanel {
+  margin: 0.5em 0;
+}
+
+div.taskido .quickEntryPanel .left .actionSelect .actionName {
+  max-width: 8ch;
+}

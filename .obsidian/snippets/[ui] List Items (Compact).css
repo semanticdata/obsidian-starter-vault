@@ -1,0 +1,33 @@
+/* Folders */
+/* .nav-folder-title {
+  color: palegoldenrod;
+} */
+
+/* Tree item spacing */
+.tree-item-self {
+  padding-top: 0.1rem;
+  padding-bottom: 0.1rem;
+}
+
+/* Folder collapse indicator */
+.nav-folder-collapse-indicator {
+  position: relative !important;
+  margin-left: 0 !important;
+  padding-left: 0.2rem;
+  order: 4;
+}
+
+/* Chevron color */
+.nav-folder-collapse-indicator svg {
+  stroke: grey;
+}
+
+/* style file tag */
+.nav-file-tag {
+  background: rgb(150, 150, 150, 0.3);
+}
+
+/* Outline */
+div.view-content.node-insert-event {
+  padding: 0.1rem !important;
+}
