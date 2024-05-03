@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "0d2a6ac7065ebaf8",
+        "id": "39309c3f3e694177",
         "type": "tabs",
         "children": [
           {
-            "id": "9198673f88102461",
+            "id": "b41dfe3906a37cac",
             "type": "leaf",
             "state": {
               "type": "home-tab-view",
@@ -143,7 +143,7 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "9198673f88102461",
+  "active": "b41dfe3906a37cac",
   "lastOpenFiles": [
     "README.md",
     "new-note.md",

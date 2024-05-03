@@ -36,7 +36,7 @@ This starter vault uses the following [community plugins](https://obsidian.md/pl
 
 * [Advance Tables](https://github.com/tgrosinger/advanced-tables-obsidian) - Improved navigation, formatting, and manipulation to markdown tables.
 * [Calendar](https://github.com/liamcain/obsidian-calendar-plugin) - Integrates Daily Notes. Let's you visit any Daily Notes with ease.
-* [Doubleshift](https://github.com/Qwyntex/doubleshift) - Press `shift` or `ctrl` twice and activate custom actions.
+* [Doubleshift](https://github.com/Qwyntex/doubleshift) - Press <kbd>shift</kbd> or <kbd>ctrl</kbd> twice and activate custom actions.
 * [Editor Shortcuts](https://github.com/timhor/obsidian-editor-shortcuts) - Adds Hotkeys commonly found in other common code editors.
 * [Home Tab](https://github.com/olrenso/obsidian-home-tab) - Integrates recent notes and Omnisearch.
 * [Linter](https://github.com/platers/obsidian-linter) - Format and style notes. Akin to something like Prettier.
@@ -65,35 +65,36 @@ root
 
 ### Formatting Text
 
-The _Markdown Linter_ plugin is configured to <ins>lint on save</ins> for a smoother typing experience. This means everytime you press `Ctrl + S`, it will **format the note** as well as save it.
+The _Markdown Linter_ plugin is configured to <ins>lint on save</ins> for a smoother typing experience. This means every time you press <kbd>Ctrl</kbd> + <kbd>S</kbd>, it will **format the note** as well as save it.
 
 ### Search
 
 * You may open the _Command Palette_ by pressing `Ctrl` `Ctrl` in rapid succession.
 * You may start _Omnisearch: Search Vault_ by pressing `Shift` `Shift` in rapid succession.
-* Reassigned `Ctrl + F` to _Omnisearch: In File Search_.
-* Reassigned `Ctrl + Shift + F` to _Omnisearch: Search Vault_.
+* Reassigned <kbd>Ctrl</kbd> + <kbd>F</kbd> to _Omnisearch: In File Search_.
+* Reassigned <kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>F</kbd> to _Omnisearch: Search Vault_.
 
 ### Editor Shortcuts
 
 | Action                   | Keybinding           |
 | ------------------------ | -------------------- |
-| Move line up             | `Alt + Up`           |
-| Move line down           | `Alt + Down`         |
-| Copy line above          | `Alt + Shift + Up`   |
-| Copy line below          | `Alt + shift + Down` |
-| Select word / selection  | `Ctrl + D`           |
-| Select line (repeatable) | `Ctrl + L`           |
+| Move line up             | <kbd>Alt</kbd> + <kbd>Up</kbd>           |
+| Move line down           | <kbd>Alt</kbd> + <kbd>Down</kbd>         |
+| Copy line above          | <kbd>Alt</kbd> + <kbd>Shift + Up</kbd>   |
+| Copy line below          | <kbd>Alt</kbd> + <kbd>shift + Down</kbd> |
+| Select word / selection  | <kbd>Ctrl</kbd> + <kbd>D</kbd>           |
+| Select line (repeatable) | <kbd>Ctrl</kbd> + <kbd>L</kbd>           |
 
 ### 🌄 Natural Language Dates
 
 Autocomplete and link natural language expressions to daily notes.
 
 Examples:
+
 * `@today`
 * `@tomorrow`
 * `@next week`
 
 ## © License
 
-Source code in this repository is available under the [MIT](LICENSE) license.
+Source code in this repository is available under the [MIT License](LICENSE).
