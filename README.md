@@ -1,11 +1,9 @@
 # 🔮 Obsidian Starter Vault
 
-<p align="left">
- <img src="https://img.shields.io/github/languages/code-size/semanticdata/obsidian-test-vault" />
- <img src="https://img.shields.io/github/repo-size/semanticdata/obsidian-test-vault" />
- <img src="https://img.shields.io/github/commit-activity/t/semanticdata/obsidian-test-vault" />
- <img src="https://img.shields.io/github/last-commit/semanticdata/obsidian-test-vault" />
-</p>
+![code size](https://img.shields.io/github/languages/code-size/semanticdata/obsidian-test-vault)
+![repo size](https://img.shields.io/github/repo-size/semanticdata/obsidian-test-vault)
+![commit activity](https://img.shields.io/github/commit-activity/t/semanticdata/obsidian-test-vault)
+![last commit](https://img.shields.io/github/last-commit/semanticdata/obsidian-test-vault)
 
 An opinionated [Obsidian](https://obsidian.md/) starter vault. It holds a compilation of extensions and settings to help you learn and start exploring Obsidian.
 
