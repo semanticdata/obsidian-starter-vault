@@ -94,10 +94,6 @@ Examples:
 * `@tomorrow`
 * `@next week`
 
-### Tables
-
-Start a Markdown table by typing `|` followed by a `<space>` and `Tab`.
-
 ## © License
 
 Source code in this repository is available under the [MIT](LICENSE) license.
