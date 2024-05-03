@@ -100,4 +100,4 @@ Start a Markdown table by typing `|` followed by a `<space>` and `Tab`.
 
 ## © License
 
-Source code in this repository is available under the [MIT](LICENSE) license. You are free to use this code however you see fit. That said, some acknowledgement would be well received.
+Source code in this repository is available under the [MIT](LICENSE) license.
