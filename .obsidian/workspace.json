@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "9688ad9e2e29170c",
+        "id": "0e7e7f25763b0c25",
         "type": "tabs",
         "children": [
           {
-            "id": "3647f3509aa3061b",
+            "id": "c32748d28c8ff555",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -148,9 +148,17 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "3647f3509aa3061b",
+  "active": "c32748d28c8ff555",
   "lastOpenFiles": [
     "Welcome.md",
+    "README.md.tmp.10952.1755453064494",
+    "CONTRIBUTING.md",
+    "CONTRIBUTING.md.tmp.10952.1755453046993",
+    "TROUBLESHOOTING.md",
+    "README.md.tmp.10952.1755452946298",
+    "README.md.tmp.10952.1755452926029",
+    "README.md.tmp.10952.1755452894161",
+    "README.md.tmp.10952.1755452883084",
     "README.md",
     "templates/current-time.md",
     "journals/example-journal.md",
@@ -168,9 +176,6 @@
     "Assets/cookie-enjoyer.png",
     "journals",
     "templates",
-    "Assets",
-    "z.txt",
-    "New Text Document.txt",
-    "LICENSE"
+    "Assets"
   ]
 }

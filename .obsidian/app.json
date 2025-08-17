@@ -7,5 +7,6 @@
   "showInlineTitle": false,
   "showLineNumber": false,
   "showIndentGuide": true,
-  "attachmentFolderPath": "assets"
+  "attachmentFolderPath": "assets",
+  "readableLineLength": true
 }

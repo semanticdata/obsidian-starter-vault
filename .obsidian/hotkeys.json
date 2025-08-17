@@ -40,7 +40,7 @@
   "workspace:goto-last-tab": [],
   "editor:open-link-in-new-leaf": [],
   "editor:toggle-checklist-status": [],
-  "insert-current-time": [
+  "nldates-obsidian:nlp-time": [
     {
       "modifiers": [
         "Alt"
