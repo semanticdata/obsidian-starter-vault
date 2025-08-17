@@ -4,17 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "ae7105905124ead1",
+        "id": "042c5ededf614503",
         "type": "tabs",
         "children": [
           {
-            "id": "0c7dbbbd6795ee17",
+            "id": "c65b3d01feab4b7a",
             "type": "leaf",
             "state": {
-              "type": "empty",
+              "type": "home-tab-view",
               "state": {},
-              "icon": "lucide-file",
-              "title": "New tab"
+              "icon": "search",
+              "title": "Home tab"
             }
           }
         ]
@@ -36,7 +36,8 @@
             "state": {
               "type": "file-explorer",
               "state": {
-                "sortOrder": "alphabetical"
+                "sortOrder": "alphabetical",
+                "autoReveal": false
               },
               "icon": "lucide-folder-closed",
               "title": "Files"
@@ -102,16 +103,6 @@
             }
           },
           {
-            "id": "45103701841e1a00",
-            "type": "leaf",
-            "state": {
-              "type": "calendar",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "Plugin no longer active"
-            }
-          },
-          {
             "id": "2b6ea5868734a3c5",
             "type": "leaf",
             "state": {
@@ -145,7 +136,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -161,13 +152,13 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "0c7dbbbd6795ee17",
+  "active": "c65b3d01feab4b7a",
   "lastOpenFiles": [
     "README.md",
     "markdown-demo.md",
+    "journals/first-journal.md",
     "new-note.md",
     "templates/daily-journal.md",
-    "journals/first-journal.md",
     "assets/cookie-enjoyer.png",
     "journals",
     "templates",

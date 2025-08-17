@@ -13,7 +13,7 @@
   "fontColorType": "default",
   "fontWeight": 600,
   "maxResults": 8,
-  "showStarredFiles": false,
+  "showbookmarkedFiles": true,
   "showRecentFiles": true,
   "maxRecentFiles": 8,
   "storeRecentFile": true,
@@ -25,29 +25,32 @@
   "recentFilesStore": [
     {
       "filepath": "README.md",
-      "timestamp": 1714765924472
+      "timestamp": 1755448094456
     },
     {
       "filepath": "markdown-demo.md",
-      "timestamp": 1698675303655
+      "timestamp": 1755448011918
+    },
+    {
+      "filepath": "journals/first-journal.md",
+      "timestamp": 1755447529184
     },
     {
       "filepath": "templates/daily-journal.md",
       "timestamp": 1698674900629
     },
     {
-      "filepath": "journals/first-journal.md",
-      "timestamp": 1698674679557
-    },
-    {
       "filepath": "assets/cookie-enjoyer.png",
       "timestamp": 1694936322649
     }
   ],
-  "starredFileStore": [],
+  "bookmarkedFileStore": [],
   "searchDelay": 0,
   "replaceNewTabs": true,
   "newTabOnStart": true,
   "closePreviousSessionTabs": false,
-  "omnisearch": true
+  "omnisearch": true,
+  "showOmnisearchExcerpt": true,
+  "showStarredFiles": false,
+  "starredFileStore": []
 }
