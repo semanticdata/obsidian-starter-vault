@@ -10,9 +10,9 @@
     "[editor] Table tweaks",
     "[editor] Frontmatter tweaks",
     "[editor] Typography fixes",
-    "[ui] Default Style Settings",
+    "[ui] Statusbar tweaks",
     "[ui] Compact Tab Header",
-    "[ui] Statusbar tweaks"
+    "[ui] Default Style Settings"
   ],
   "baseFontSize": 16
 }

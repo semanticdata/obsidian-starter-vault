@@ -18,24 +18,19 @@ Style tables.
 }
 
 /* lighten alternate row background */
-.markdown-rendered tbody tr:nth-child(odd) {
-  background-color: #2a3a3a80;
+.markdown-rendered tbody tr:nth-child(even) {
+  background-color: var(--background-primary-alt);
 }
 
 div.table-wrapper {
   max-width: 100%;
   margin: 0 auto;
+  outline: 2px solid black;
+  border-radius: 0.15rem;
   border: none;
-  outline: 0.2rem solid black;
-  border-radius: 0.2rem;
 }
 
-div.cm-embed-block.cm-table-widget.markdown-rendered
-  div.table-wrapper
-  table.table-editor
-  thead
-  tr
-  th,
+div.cm-embed-block.cm-table-widget.markdown-rendered div.table-wrapper table.table-editor thead tr th,
 div.cm-embed-block.cm-table-widget.markdown-rendered
   div.table-wrapper
   table.table-editor
@@ -43,19 +38,19 @@ div.cm-embed-block.cm-table-widget.markdown-rendered
   tr
   td
   div.table-cell-wrapper {
-  padding: 1em;
-  font-size: 1.2em;
+  padding: 0.4em;
+  /* font-size: 1.2em; */
 }
 
 /* From previous version of Anodyne */
 table thead {
-  background-color: var(--cus-table-header);
+  background-color: var(--background-secondary);
   font-weight: bold;
 }
 
 table tr:nth-child(2n),
 thead {
-  background-color: var(--cus-table-gap-tr);
+  background-color: var(--background-secondary);
 }
 
 .cm-active.cm-line {
@@ -63,8 +58,8 @@ thead {
 }
 
 .nav-file-title.is-active::before {
-  border-left: 4px solid hsl(var(--interactive-accent-hsl));
-  content: '';
+  border-left: 2px solid hsl(var(--interactive-accent-hsl));
+  content: "";
   position: absolute;
   left: 0px;
   top: 0;

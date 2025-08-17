@@ -1,19 +1,10 @@
 /*
 Add translucent background to internal links.
 */
-/* OG code */
-/* .cm-s-obsidian span.cm-hmd-internal-link,
-a.internal-link {
-  background-color: #8f9fa937;
-  padding: 0 0.1em;
-  margin: auto -0.1em;
-  border-radius: 3px;
-} */
 
 .cm-s-obsidian span.cm-hmd-internal-link,
 a.internal-link {
-  background-color: #8f9fa937;
-  /* padding: 0 0.1em; */
-  /* margin: auto -0.1em; */
+  background-color: var(--background-primary-alt);
   border-radius: 0.15em;
+  color: var(--text-on-accent);
 }

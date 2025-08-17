@@ -11,10 +11,14 @@
             "id": "c32748d28c8ff555",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "Markdown Demo.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "Markdown Demo"
             }
           }
         ]
@@ -90,12 +94,13 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "Markdown Demo.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline"
+              "title": "Outline of Markdown Demo"
             }
           },
           {
@@ -104,6 +109,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Markdown Demo.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -113,7 +119,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks"
+              "title": "Backlinks for Markdown Demo"
             }
           },
           {
@@ -150,6 +156,7 @@
   },
   "active": "c32748d28c8ff555",
   "lastOpenFiles": [
+    "Markdown Demo.md",
     "Welcome.md",
     "README.md.tmp.10952.1755453064494",
     "CONTRIBUTING.md",
@@ -167,7 +174,6 @@
     "assets",
     "Journals/first-journal.md",
     "templates/daily-journal.md",
-    "Markdown Demo.md",
     "How to Link Your Notes.md",
     "CHANGELOG.md",
     "A Guide to Plugins.md",
