@@ -1,20 +1,20 @@
 {
   "main": {
-    "id": "103dbf44d55a9cac",
+    "id": "5324373015726ba8",
     "type": "split",
     "children": [
       {
-        "id": "042c5ededf614503",
+        "id": "9688ad9e2e29170c",
         "type": "tabs",
         "children": [
           {
-            "id": "c65b3d01feab4b7a",
+            "id": "3647f3509aa3061b",
             "type": "leaf",
             "state": {
-              "type": "home-tab-view",
+              "type": "empty",
               "state": {},
-              "icon": "search",
-              "title": "Home tab"
+              "icon": "lucide-file",
+              "title": "New tab"
             }
           }
         ]
@@ -85,6 +85,20 @@
         "type": "tabs",
         "children": [
           {
+            "id": "2b6ea5868734a3c5",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline"
+            }
+          },
+          {
             "id": "681b0afb76cb6512",
             "type": "leaf",
             "state": {
@@ -103,40 +117,21 @@
             }
           },
           {
-            "id": "2b6ea5868734a3c5",
-            "type": "leaf",
-            "state": {
-              "type": "outline",
-              "state": {},
-              "icon": "lucide-list",
-              "title": "Outline"
-            }
-          },
-          {
             "id": "8ad59ec08cb07eb1",
             "type": "leaf",
             "state": {
               "type": "tag",
               "state": {
                 "sortOrder": "frequency",
-                "useHierarchy": true
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
               },
               "icon": "lucide-tags",
               "title": "Tags"
             }
-          },
-          {
-            "id": "9f3ad6a0a9b03a31",
-            "type": "leaf",
-            "state": {
-              "type": "advanced-tables-toolbar",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "Plugin no longer active"
-            }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "horizontal",
@@ -145,24 +140,35 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "homepage:Open homepage": false,
       "daily-notes:Open today's daily note": false,
       "command-palette:Open command palette": false,
-      "switcher:Open quick switcher": true,
+      "switcher:Open quick switcher": false,
       "templates:Insert template": false,
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "c65b3d01feab4b7a",
+  "active": "3647f3509aa3061b",
   "lastOpenFiles": [
+    "Welcome.md",
     "README.md",
-    "markdown-demo.md",
-    "journals/first-journal.md",
-    "new-note.md",
-    "templates/daily-journal.md",
+    "templates/current-time.md",
+    "journals/example-journal.md",
+    "journals/2025-08-17.md",
     "assets/cookie-enjoyer.png",
+    "assets",
+    "Journals/first-journal.md",
+    "templates/daily-journal.md",
+    "Markdown Demo.md",
+    "How to Link Your Notes.md",
+    "CHANGELOG.md",
+    "A Guide to Plugins.md",
+    "Organize Your Vault.md",
+    "new-note.md",
+    "Assets/cookie-enjoyer.png",
     "journals",
     "templates",
-    "assets",
+    "Assets",
     "z.txt",
     "New Text Document.txt",
     "LICENSE"

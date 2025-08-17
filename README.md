@@ -35,7 +35,6 @@ This starter vault uses the following [community plugins](https://obsidian.md/pl
 - [Calendar](https://github.com/liamcain/obsidian-calendar-plugin) - Integrates Daily Notes. Let's you visit any Daily Notes with ease.
 - [Doubleshift](https://github.com/Qwyntex/doubleshift) - Press <kbd>shift</kbd> or <kbd>ctrl</kbd> twice and activate custom actions.
 - [Editor Shortcuts](https://github.com/timhor/obsidian-editor-shortcuts) - Adds Hotkeys commonly found in other common code editors.
-- [Home Tab](https://github.com/olrenso/obsidian-home-tab) - Integrates recent notes and Omnisearch.
 - [Linter](https://github.com/platers/obsidian-linter) - Format and style notes. Akin to something like Prettier.
 - [Minimal Settings](https://github.com/kepano/obsidian-minimal-settings) - Allows you to customize the minimal theme settings panel.
 - [Mononote](https://github.com/czottmann/obsidian-mononote) - Ensures each note occupies only one tab.
@@ -44,17 +43,19 @@ This starter vault uses the following [community plugins](https://obsidian.md/pl
 - [Omnisearch](https://github.com/scambier/obsidian-omnisearch) - Better search. Period.
 - [Settings Search](https://github.com/javalent/settings-search) - Adds a search bar to Obsidian settings.
 - [Style Settings](https://github.com/mgmeyers/obsidian-style-settings) - Allows snippet, theme, and plugin CSS files define as a set of config options.
-- [YAOS - Yet Another Obsidian Synchronizer](https://github.com/mahyarmirrashed/yaos) - Sync your vault to GitHub.
 
 ## 📂 File Structure
 
 ```plaintext
-root
+obsidian-starter-vault/
 ├── assets/
 ├── journals/
-│   └── first-journal.md
+│   └── example-journal.md
 ├── templates
 │   └── daily-journal.md
+├── Welcome.md
+├── Markdown Demo.md
+├── CHANGELOG.md
 └── README.md
 ```
 
@@ -71,7 +72,7 @@ The _Markdown Linter_ plugin is configured to <ins>lint on save</ins> for a smoo
 - Reassigned <kbd>Ctrl</kbd> + <kbd>F</kbd> to _Omnisearch: In File Search_.
 - Reassigned <kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>F</kbd> to _Omnisearch: Search Vault_.
 
-### Editor Shortcuts
+### Keyboard Shortcuts
 
 | Action                   | Keybinding                               |
 | ------------------------ | ---------------------------------------- |
@@ -81,6 +82,7 @@ The _Markdown Linter_ plugin is configured to <ins>lint on save</ins> for a smoo
 | Copy line below          | <kbd>Alt</kbd> + <kbd>shift + Down</kbd> |
 | Select word / selection  | <kbd>Ctrl</kbd> + <kbd>D</kbd>           |
 | Select line (repeatable) | <kbd>Ctrl</kbd> + <kbd>L</kbd>           |
+| Enter Current time       | <bbd>Alt</kbd> + <kbd>T</kbd>            |
 
 ### 🌄 Natural Language Dates
 

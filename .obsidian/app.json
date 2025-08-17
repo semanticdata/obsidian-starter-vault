@@ -2,7 +2,7 @@
   "trashOption": "local",
   "foldIndent": false,
   "autoPairMarkdown": false,
-  "tabSize": 2,
+  "tabSize": 4,
   "alwaysUpdateLinks": true,
   "showInlineTitle": false,
   "showLineNumber": false,

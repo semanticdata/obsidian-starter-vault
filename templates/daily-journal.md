@@ -5,6 +5,18 @@ tags:
 
 # {{date:dddd, MMMM Do, YYYY}}
 
-## Daily Journal Section
+## Today's Goals
 
-This is the default section. Please consider changing, adding sections modifying the [[daily-journal]] template.
+> What minimum number of things would you like to do to feel like today was productive or successful?
+
+## Today's Tasks
+
+> What specific, small tasks would you like to accomplish today? Break down bigger tasks.
+
+- [ ] Example task
+
+## Journal
+
+> Use `Alt + T` to insert the current time for easier Interstitial Journaling.
+
+-

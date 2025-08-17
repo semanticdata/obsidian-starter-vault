@@ -8,11 +8,11 @@
     "[editor] Normalize Links",
     "[plugin] MySnippets tweaks",
     "[editor] Table tweaks",
-    "[ui] Compact Tab Header",
-    "[ui] Default Style Settings",
-    "[ui] Statusbar tweaks",
     "[editor] Frontmatter tweaks",
-    "[editor] Typography fixes"
+    "[editor] Typography fixes",
+    "[ui] Default Style Settings",
+    "[ui] Compact Tab Header",
+    "[ui] Statusbar tweaks"
   ],
   "baseFontSize": 16
 }

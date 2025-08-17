@@ -3,7 +3,6 @@
   "obsidian-minimal-settings",
   "obsidian-doubleshift",
   "table-editor-obsidian",
-  "home-tab",
   "nldates-obsidian",
   "omnisearch",
   "obsidian-style-settings",
@@ -12,5 +11,6 @@
   "mononote",
   "obsidian-plugin-update-tracker",
   "settings-search",
-  "tag-wrangler"
+  "tag-wrangler",
+  "homepage"
 ]

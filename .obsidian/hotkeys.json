@@ -39,5 +39,13 @@
   "editor:follow-link": [],
   "workspace:goto-last-tab": [],
   "editor:open-link-in-new-leaf": [],
-  "editor:toggle-checklist-status": []
+  "editor:toggle-checklist-status": [],
+  "insert-current-time": [
+    {
+      "modifiers": [
+        "Alt"
+      ],
+      "key": "T"
+    }
+  ]
 }
