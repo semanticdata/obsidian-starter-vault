@@ -5,18 +5,34 @@ tags:
 
 # {{date:dddd, MMMM Do, YYYY}}
 
-## Today's Goals
+## Today's Focus
 
-> What minimum number of things would you like to do to feel like today was productive or successful?
+> What 1-3 things would make today feel productive and meaningful?
+
+- 
 
 ## Today's Tasks
 
-> What specific, small tasks would you like to accomplish today? Break down bigger tasks.
+> Break down larger goals into small, actionable steps.
 
-- [ ] Example task
+- [ ] 
 
-## Journal
+## Notes & Reflections
 
-> Use `Alt + T` to insert the current time for easier Interstitial Journaling.
+> Use `Alt + T` to insert timestamps throughout the day.
 
--
+- 
+
+## Tomorrow
+
+> What needs attention tomorrow?
+
+- 
+
+---
+
+**Tips**: 
+- Use `[[` to link to other notes
+- Use `@today`, `@tomorrow` for quick date links
+- Press `Ctrl + S` to format and save
+- Press `Shift + Shift` to search your vault
