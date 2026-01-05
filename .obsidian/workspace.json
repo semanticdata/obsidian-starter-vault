@@ -94,13 +94,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Markdown Demo.md",
+                "file": "Welcome.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Markdown Demo"
+              "title": "Outline of Welcome"
             }
           },
           {
@@ -136,8 +136,19 @@
               "icon": "lucide-tags",
               "title": "Tags"
             }
+          },
+          {
+            "id": "e31f60ec4fda7043",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {},
+              "icon": "calendar-with-checkmark",
+              "title": "Calendar"
+            }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -157,8 +168,9 @@
   },
   "active": "e7a7b303c61786dc",
   "lastOpenFiles": [
-    "Markdown Demo.md",
+    "README.md",
     "Welcome.md",
+    "Markdown Demo.md",
     "README.md.tmp.10952.1755453064494",
     "CONTRIBUTING.md",
     "CONTRIBUTING.md.tmp.10952.1755453046993",
@@ -167,7 +179,6 @@
     "README.md.tmp.10952.1755452926029",
     "README.md.tmp.10952.1755452894161",
     "README.md.tmp.10952.1755452883084",
-    "README.md",
     "templates/current-time.md",
     "journals/example-journal.md",
     "journals/2025-08-17.md",

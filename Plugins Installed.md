@@ -32,7 +32,6 @@ This vault includes several plugins pre-configured. They're already installed - 
 | **Tag Wrangler** | Rename and manage tags | Keep tags organized |
 | **Editor Shortcuts** | Adds keyboard shortcuts from code editors | Navigate like VS Code |
 | **Doubleshift** | Quick command launcher | Press `Shift` twice to search |
-| **Mononote** | One tab per note instead of unlimited tabs | Fewer tabs, less clutter |
 
 ## Managing Plugins Later
 

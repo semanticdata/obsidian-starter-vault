@@ -29,7 +29,7 @@ The setup here reflects one way to use Obsidian. As you explore, you'll discover
 
 - **Search**: Omnisearch for finding anything instantly
 - **Writing**: Advanced Tables, Editor Shortcuts, Linter (auto-formats on save)
-- **Organization**: Tag Wrangler, Mononote (one tab per note), Homepage
+- **Organization**: Tag Wrangler, Homepage
 - **Productivity**: Natural Language Dates, Doubleshift (quick actions)
 
 See [[Plugins Installed]] for the complete list of what's pre-configured.
