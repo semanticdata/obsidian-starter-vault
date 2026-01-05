@@ -4,6 +4,30 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/), and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [2.0.0] - Unreleased
+
+### Added
+
+- `First Steps.md` - new onboarding guide with quick actions
+- `Plugins Installed.md` - complete reference for all installed plugins
+- `projects/example-project.md` - demonstrates linked notes and daily journal integration
+- `templates/meeting.md` - meeting notes template
+- `templates/project.md` - project tracking template
+- `templates/quick-note.md` - fast idea capture template
+
+### Changed
+
+- Restructured onboarding flow
+- `Welcome.md` - added links to Plugins Installed and refined Learning Path section
+- `First Steps.md` - added "Right Now" section for immediate action and template instructions
+
+### Improved
+
+- Better link examples throughout documentation showing practical [[link]] usage
+- More comprehensive plugin documentation
+
+---
+
 ## [1.4.1] - 2026-01-05
 
 - Updated Obsidian Linter plugin to latest version
