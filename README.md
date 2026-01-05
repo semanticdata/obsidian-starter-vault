@@ -121,6 +121,9 @@ When you're ready:
 **Found a Bug?**
 - [Create an issue](https://github.com/semanticdata/obsidian-starter-vault/issues)
 
+**Enjoying this?**
+- Found this vault helpful? [Buy me a coffee](https://buymeacoffee.com/semanticdata) to support continued development
+
 ## © License
 
 Source code in this repository is available under the [MIT License](LICENSE).
