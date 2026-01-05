@@ -2,183 +2,129 @@
 
 ![code size](https://img.shields.io/github/languages/code-size/semanticdata/obsidian-starter-vault) ![repo size](https://img.shields.io/github/repo-size/semanticdata/obsidian-starter-vault) ![commit activity](https://img.shields.io/github/commit-activity/t/semanticdata/obsidian-starter-vault) ![last commit](https://img.shields.io/github/last-commit/semanticdata/obsidian-starter-vault)
 
-An opinionated [Obsidian](https://obsidian.md/) starter vault. It holds a compilation of extensions and settings to help you learn and start exploring Obsidian.
+An opinionated, pre-configured [Obsidian](https://obsidian.md/) starter vault. For anyone new to Obsidian or markdown who wants a working setup without spending hours configuring plugins.
 
-## 🌟 Getting Started
+> Avoid the temptation of over-customizing. Start simple and add features as you need them.
 
-1. Clone this repo or download the [latest release](https://github.com/semanticdata/obsidian-starter-vault/releases/latest).
-2. Open the repo/folder in Obsidian.
-3. Use it, customize it, and have fun!
+## 🌟 Quick Start
 
-## 🦋 Appearance
+1. **Download** this repo or get the [latest release](https://github.com/semanticdata/obsidian-starter-vault/releases/latest)
+2. **Open** the folder in Obsidian
+3. **Read** the `Welcome.md` note
 
-The starter uses the [Minimal Theme](https://github.com/kepano/obsidian-minimal) including extra configurations and settings via the [Minimal Theme Settings](https://github.com/kepano/obsidian-minimal) plugin.
+That's it.
 
-### 👨🏼‍💻 CSS Snippets
+## 📦 What's Included
 
-You will find a comprehensive collection of useful CSS snippets included with the starter. Here's a breakdown of what each one does:
+### For Beginners
 
-#### Editor Snippets
+- **No configuration needed** - everything works out of the box
+- **Start simple** - basic notes now, advanced features later
+- **Clear guidance** - Welcome note and examples show what to do
 
-- External Links - Removes decoration from external links for cleaner appearance.
-- Frontmatter - Improves the legibility and styling of frontmatter elements.
-- Internal Links - Enhances the appearance of internal note links.
-- Tables - Improves legibility and formatting of markdown tables.
+### For Getting Things Done
 
-#### Plugin Snippets
+- **Clean interface** - Minimal theme keeps you focused on writing
+- **Auto-formatting** - Notes format when you save (`Ctrl + S`)
+- **Good search** - Find notes quickly (`Shift` + `Shift`)
 
-- Calendar - Styling enhancements for the Calendar plugin interface.
-- MySnippets - Essential UI settings while using the [MySnippets](https://github.com/chetachiezikeuzor/MySnippets-Plugin) plugin.
-- Task Wrapper Tweaks - Improves task list formatting and appearance.
+### For Making It Yours
 
-#### Print Snippets
+- **Flexible** - Start simple, change it over time
+- **Customizable** - Add plugins, modify templates, tweak appearance
+- **Portable** - Works on all devices, syncs with cloud storage
 
-- Dark PDF Export - Optimizes dark theme for PDF exports.
+## 🦋 Appearance & Experience
 
-#### UI Snippets
+Uses the **Minimal Theme** with CSS snippets for readability:
 
-- Compact Tab Header - Arranges items in tab header into organized groups.
-- Default Style Settings - Adds options to customize Obsidian appearance further.
-- Hover Preview Tweaks - Enhances the hover preview functionality.
-- List Items (Compact) - Creates more compact list item spacing.
-- New Empty Tab Tweaks - Improves the new tab experience.
-- Statusbar Tweaks - Improves legibility and appearance of the status bar.
+- **Better tables** and **cleaner links**
+- **Dark PDF export** for sharing notes
+- **Compact UI elements** for more screen space
+- **Plugin-specific styling**
 
-## 🤝🏼 Community Plugins
+## 🔌 Plugins Included
 
-This starter vault uses the following [community plugins](https://obsidian.md/plugins):
+| Plugin                     | Purpose                        | Why It's Here                               |
+| -------------------------- | ------------------------------ | ------------------------------------------- |
+| **Homepage**               | Opens Welcome.md on launch     | Always start somewhere familiar             |
+| **Omnisearch**             | Search everything              | Find notes even when you misspell           |
+| **Linter**                 | Auto-format notes              | Clean formatting when you save (`Ctrl + S`) |
+| **Advanced Tables**        | Better table editing           | Tables don't fight back                     |
+| **Natural Language Dates** | Type `@today` for today's note | Faster than typing dates                    |
+| **Tag Wrangler**           | Manage tags                    | Keep tags organized                         |
+| **Editor Shortcuts**       | Code-style shortcuts           | Navigate like VS Code                       |
 
-- [Advanced Tables](https://github.com/tgrosinger/advanced-tables-obsidian) - Improved navigation, formatting, and manipulation to markdown tables.
-- [Doubleshift](https://github.com/Qwyntex/doubleshift) - Press <kbd>shift</kbd> or <kbd>ctrl</kbd> twice and activate custom actions.
-- [Editor Shortcuts](https://github.com/timhor/obsidian-editor-shortcuts) - Adds Hotkeys commonly found in other common code editors.
-- [Homepage](https://github.com/mirnovov/obsidian-homepage) - Set any note, canvas, or workspace as your homepage.
-- [Linter](https://github.com/platers/obsidian-linter) - Format and style notes. Akin to something like Prettier.
-- [Minimal Settings](https://github.com/kepano/obsidian-minimal-settings) - Allows you to customize the minimal theme settings panel.
-- [Mononote](https://github.com/czottmann/obsidian-mononote) - Ensures each note occupies only one tab.
-- [MySnippets](https://github.com/chetachiezikeuzor/MySnippets-Plugin) - Adds a status bar menu allowing the user to quickly manage their snippets.
-- [Natural Language Dates](https://github.com/argenos/nldates-obsidian) - Allows `@today` style shortcuts.
-- [Omnisearch](https://github.com/scambier/obsidian-omnisearch) - Better search. Period.
-- [Plugin Update Tracker](https://github.com/swar8080/obsidian-plugin-update-tracker) - Keep track of plugin updates and see what's new.
-- [Settings Search](https://github.com/javalent/settings-search) - Adds a search bar to Obsidian settings.
-- [Style Settings](https://github.com/mgmeyers/obsidian-style-settings) - Allows snippet, theme, and plugin CSS files define as a set of config options.
-- [Tag Wrangler](https://github.com/pjeby/tag-wrangler) - Rename, merge, toggle, and search tags from the tag pane.
+See `Plugins Installed` in the vault for the complete list.
 
-## 📂 File Structure
+## 📝 Templates Included
 
-```plaintext
+- **Daily Journal**: Structured journaling and task tracking
+- **Meeting Notes**: Organized meetings with action items
+- **Project Tracker**: Project management with tasks and progress
+- **Quick Note**: Capture ideas without overthinking
+
+## 📂 Vault Structure
+
+```
 obsidian-starter-vault/
-├── .obsidian/                    # Obsidian configuration folder
-│   ├── plugins/                  # Community plugins
-│   ├── snippets/                 # CSS customizations
-│   └── themes/                   # Minimal theme files
-├── assets/                       # Images and media files
-│   └── cookie-enjoyer.png
-├── journals/                     # Example journal entries
-│   └── example-journal.md
-├── templates/                    # Note templates
-│   └── daily-journal.md          # Daily note template
-├── CHANGELOG.md                  # Version history and updates
-├── Markdown Demo.md              # Markdown formatting examples
-└── Welcome.md                    # Getting started guide
+├── .obsidian/          # Configuration (don't touch unless customizing)
+├── assets/             # Images and files you add
+├── journals/           # Your daily notes (auto-created)
+├── projects/           # Project notes
+├── templates/          # Note templates
+├── Welcome.md          # Getting started guide
+├── README.md           # This file
+└── CHANGELOG.md        # Version history
 ```
 
-### Folder Purposes
+## 🔁 Common Workflows
 
-- `.obsidian/`: Contains all Obsidian-specific configurations, plugins, and customizations
-- `assets/`: Store images, attachments, and media files referenced in your notes
-- `journals/`: Daily notes and journal entries (can be customized via templates)
-- `templates/`: Reusable note templates for consistent formatting and structure
+### Daily Journaling
 
-## 🔁 Workflows
+1. Press `Ctrl` twice, type `daily`, hit Enter
+2. Write your thoughts
+3. Press `Ctrl + S` to format and save
 
-### Formatting Text
+### Finding Notes
 
-The _Markdown Linter_ plugin is configured to <ins>lint on save</ins> for a smoother typing experience. This means every time you press <kbd>Ctrl</kbd> + <kbd>S</kbd>, it will **format the note** as well as save it.
+- **Quick search**: `Shift` + `Shift`
+- **Command palette**: `Ctrl` + `Ctrl`
+- **Link to notes**: Type `[[Note Name]]`
 
-### Search
+### Staying Organized
 
-- You may open the _Command Palette_ by pressing `Ctrl` `Ctrl` in rapid succession.
-- You may start _Omnisearch: Search Vault_ by pressing `Shift` `Shift` in rapid succession.
-- Reassigned <kbd>Ctrl</kbd> + <kbd>F</kbd> to _Omnisearch: In File Search_.
-- Reassigned <kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>F</kbd> to _Omnisearch: Search Vault_.
+- **Tags**: Use `#tag-name` for categorization
+- **Folders**: Create folders for broad topics
+- **Links**: Connect related ideas with `[[links]]`
 
-### Keyboard Shortcuts
+## 🎨 Customization
 
-| Action                   | Keybinding                               |
-| ------------------------ | ---------------------------------------- |
-| Move line up             | <kbd>Alt</kbd> + <kbd>Up</kbd>           |
-| Move line down           | <kbd>Alt</kbd> + <kbd>Down</kbd>         |
-| Copy line above          | <kbd>Alt</kbd> + <kbd>Shift + Up</kbd>   |
-| Copy line below          | <kbd>Alt</kbd> + <kbd>shift + Down</kbd> |
-| Select word / selection  | <kbd>Ctrl</kbd> + <kbd>D</kbd>           |
-| Select line (repeatable) | <kbd>Ctrl</kbd> + <kbd>L</kbd>           |
-| Enter Current time       | <kbd>Alt</kbd> + <kbd>T</kbd>            |
+When you're ready:
 
-### 🌄 Natural Language Dates
+- **Themes**: Settings → Appearance
+- **Plugins**: Settings → Community plugins
+- **Templates**: Edit files in `templates/`
+- **CSS**: Edit snippets in `.obsidian/snippets/`
 
-Autocomplete and link natural language expressions to daily notes.
+## 🛠️ Need Help?
 
-Examples:
+**New to Obsidian?**
+- Start with `Welcome.md` in your vault
+- Check [Obsidian's official help](https://help.obsidian.md/)
 
-- `@today`
-- `@tomorrow`
-- `@next week`
-
-## 🛠️ Troubleshooting
-
-### Common Issues
-
-**Plugins not loading properly:**
-
-- Ensure you have opened the folder as a vault in Obsidian
-- Go to Settings → Community plugins and enable them manually if needed
+**Having Issues?**
 - Try restarting Obsidian
+- Check that community plugins are enabled
+- Visit the [Obsidian forum](https://forum.obsidian.md/)
 
-**Theme not appearing correctly:**
-
-- Check that the Minimal theme is selected in Settings → Appearance → Themes
-- Ensure the Minimal Theme Settings plugin is enabled
-- Try toggling dark/light mode
-
-**CSS snippets not working:**
-
-- Verify snippets are enabled in Settings → Appearance → CSS snippets
-- Check that snippet files are in the `.obsidian/snippets/` folder
-- Restart Obsidian after adding new snippets
-
-### Getting Help
-
-If you encounter issues not covered here, please:
-
-1. Check the [Obsidian documentation](https://help.obsidian.md/)
-2. Visit the [Obsidian community forum](https://forum.obsidian.md/)
-3. Create an issue in this repository's [Issues section](https://github.com/semanticdata/obsidian-starter-vault/issues)
-
-## ❓ Frequently Asked Questions
-
-### How do I customize the vault?
-
-You can customize this vault by:
-
-- Adding your own notes and organizing them as needed
-- Installing additional community plugins from the Community Plugins tab
-- Creating custom CSS snippets for further appearance tweaks
-- Modifying the templates in the `templates/` folder
-- Adjusting plugin settings to match your workflow
-
-### Can I use this vault as a template for new vaults?
-
-Yes! This vault is designed to be a starting point. You can:
-
-- Clone or download this repository
-- Remove the example content (journals, demo files)
-- Add your own notes and structure
-- Share your customized version with others
-
-### How do I update the plugins?
-
-With the Plugin Update Tracker installed, you'll see notifications when updates are available. You can also manually check for updates in Settings → Community plugins.
+**Found a Bug?**
+- [Create an issue](https://github.com/semanticdata/obsidian-starter-vault/issues)
 
 ## © License
 
 Source code in this repository is available under the [MIT License](LICENSE).
+
+---
+
+That's it. Go and take some notes!

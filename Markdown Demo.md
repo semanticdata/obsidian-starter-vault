@@ -4,6 +4,7 @@ tags:
   - markdown
   - reference
 ---
+
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc eu feugiat sapien. Aenean ligula nunc, laoreet id sem in, interdum bibendum felis.
 
 # H1 Heading 1
@@ -96,18 +97,60 @@ var fun = function lang(l) {
 
 ## Tables
 
-|head one|head two|head three|
-|---|:---:|---:|
-|ok|good swedish fish|nice|
-|out of stock|good and plenty|nice|
-|ok|good `oreos`|hmm|
-|ok|good `zoute` drop|yumm|
+| head one     |     head two      | head three |
+| ------------ | :---------------: | ---------: |
+| ok           | good swedish fish |       nice |
+| out of stock |  good and plenty  |       nice |
+| ok           |   good `oreos`    |        hmm |
+| ok           | good `zoute` drop |       yumm |
 
 ## Inline Markdown Within Tables
 
-| Inline&nbsp;&nbsp;&nbsp;     | Markdown&nbsp;&nbsp;&nbsp;  | In&nbsp;&nbsp;&nbsp;                | Table      |
-| ---------- | --------- | ----------------- | ---------- |
-| _italics_  | **bold**  | ~~strikethrough~~&nbsp;&nbsp;&nbsp; | `code`     |
+| Inline&nbsp;&nbsp;&nbsp; | Markdown&nbsp;&nbsp;&nbsp; | In&nbsp;&nbsp;&nbsp;                | Table  |
+| ------------------------ | -------------------------- | ----------------------------------- | ------ |
+| _italics_                | **bold**                   | ~~strikethrough~~&nbsp;&nbsp;&nbsp; | `code` |
+
+## Callouts
+
+Callouts are great for highlighting important information.
+
+> [!INFO] Custom Title Here
+> This is an info callout with a custom title.
+
+> [!TIP]
+> This is a tip. Note the title defaults to the callout type.
+
+> [!WARNING]
+> This is a warning callout.
+
+> [!NOTE] Collapsible Section
+> This callout can be collapsed by clicking it.
+>
+> You can put multiple lines inside.
+>
+> > Even nested quotes work.
+
+> [!QUESTION]- Can callouts be collapsed by default?
+> Yes! Add a minus (-) or plus (+) after the type.
+>
+> - Minus (-) = collapsed by default
+> - Plus (+) = expanded by default (default behavior)
+
+> [!EXAMPLE]
+> Here are the available callout types:
+>
+> - `note` (default, blue)
+> - `info` (blue)
+> - `todo` (blue)
+> - `tip` (cyan, shows a lightbulb)
+> - `success` (green)
+> - `question` (yellow)
+> - `warning` (orange)
+> - `failure` (red)
+> - `danger` (red)
+> - `bug` (red)
+> - `example` (purple)
+> - `quote` (gray, no icon)
 
 ## Horizontal Rule
 
